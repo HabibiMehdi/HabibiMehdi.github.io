@@ -1,121 +1,76 @@
-# Site
-
+# Site configuration
 repository: https://habibimehdi.github.io/
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-#https://github.com/Soroosh-Bsl/soroosh-bsl.github.io
-# Content configuration version
 version: 2
 
 # Personal info
 name: Mehdi Habibi
-# title: Your job title
 email: thehabibi.mm@gmail.com
-# email_title: Email (Email title override)
-# phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: jekyllrb
-github_username:  HabibiMehdi
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
+github_username: HabibiMehdi
 linkedin_username: mehdi8habibi
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#googleplus_username: +jekyll
-#orcid_username: 0000-0000-0000-0000
-#semantic_scholar_username: 
-#google_scholar_username: DHb2F-0AAAAJ
 
-# Additional icon links
-#additional_links:
-# - title: My SemanticScholar
-#  icon: ai ai-semantic-scholar ai-4x
-#  url: https://www.semanticscholar.org/author/Soroosh-Baselizadeh/1429835055
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-#<a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
 # About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-
+about_content: |
   I am a Computational Neuroscience Researcher and Engineer at NNRL, Iran, specializing in signal processing and advanced ML applications. I earned my B.Sc. in Electrical Engineering from Bu-Ali Sina University, where I worked with Assistant Professor. Hamidreza Karami.
-   title: Education
+
+# Content sections
+content:
+  - title: Education
     layout: list
     content:
-       layout: left
-        title: Iran University of Sience and Technology
-        sub_title: Master's in Biomedical Engineer
+      - layout: left
+        title: Iran University of Science and Technology
+        sub_title: Master's in Biomedical Engineering
         caption: Sep. 2022 - present
         description: |
-            <b>Supervisors</b>: <a href="https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao">Prof. Mohammad Reza Daliri</a> 
-            <br><b>Related Coursework</b>: Deep Learning, Computational Neuroscience, Brain-Machine Interface
-            <br><b>Thesis</b>: Decoding Neural Signal (LFPs, ECoGs) using Deep Learning methods
-       layout: left
+          **Supervisors**: [Prof. Mohammad Reza Daliri](https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao)
+          **Related Coursework**: Deep Learning, Computational Neuroscience, Brain-Machine Interface
+          **Thesis**: Decoding Neural Signal (LFPs, ECoGs) using Deep Learning methods
+
+      - layout: left
         title: Bu-Ali Sina University
-        sub_title: BSc in Electrical Engineeiring
+        sub_title: BSc in Electrical Engineering
         caption: Sep. 2016 - Feb. 2021
-        #quote: >
-        description: | # this will include new lines to allow paragraphs          
-          <b>Supervisor</b>: <a href="https://scholar.google.com/citations?user=Qn35J5wAAAAJ&hl=en">Assistant Professor. Hamidreza Karami</a>
-          <br><b>Related Coursework</b>: Probability & Statistics, Linear Algebra, FPGA, Signals & Systems, CMOS, Numerical Methods, Design of Algorithms, Computer Simulation, Database Design, Data Structures & Algorithms
+        description: |
+          **Supervisor**: [Assistant Professor. Hamidreza Karami](https://scholar.google.com/citations?user=Qn35J5wAAAAJ&hl=en)
+          **Related Coursework**: Probability & Statistics, Linear Algebra, FPGA, Signals & Systems, CMOS, Numerical Methods, Design of Algorithms, Computer Simulation, Database Design, Data Structures & Algorithms
 
-       layout: left
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
         title: Research Assistant
-        sub_title: 	Neuroscience and Neuroengineering Laboratory (NNRL) Lab
+        sub_title: Neuroscience and Neuroengineering Laboratory (NNRL) Lab
         caption: March 2022 - present
-        quote: >
-          Neuroscience and Neuroengineering Laboratory (NNRL) Lab @ Iran University of Sience and Technology, Iran
-        description: | # this will include new lines to allow paragraphs
-          + Developed a new method for decoding neural signal using deep learning methods 
-          + Implemented several interpretability methods of deep neural networks including Grad-CAM, Integrated Gradients, Vanilla Gradients in PyTorch
-          + Designed, and implemented experiments for evaluation/ablation using numpy, PyTorch, and matplotlib 
-          + Presented findings using Jupyter and Tensorboard in meetings, and performed version control on Git
-  
-      
-
+        quote: Neuroscience and Neuroengineering Laboratory (NNRL) Lab @ Iran University of Science and Technology, Iran
+        description: |
+          - Developed a new method for decoding neural signal using deep learning methods 
+          - Implemented several interpretability methods of deep neural networks including Grad-CAM, Integrated Gradients, Vanilla Gradients in PyTorch
+          - Designed, and implemented experiments for evaluation/ablation using numpy, PyTorch, and matplotlib 
+          - Presented findings using Jupyter and Tensorboard in meetings, and performed version control on Git
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
