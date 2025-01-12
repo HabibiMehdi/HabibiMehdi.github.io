@@ -66,7 +66,6 @@ about_content: | # this will include new lines to allow paragraphs
         caption: Sep. 2022 - present
         description: |
             <b>Supervisors</b>: <a href="https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao">Prof. Mohammad Reza Daliri</a> 
-            
             <br><b>Related Coursework</b>: Deep Learning, Computational Neuroscience, Brain-Machine Interface
             <br><b>Thesis</b>: Decoding Neural Signal (LFPs, ECoGs) using Deep Learning methods
       - layout: left
