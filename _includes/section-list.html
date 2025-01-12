@@ -1,0 +1,39 @@
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4>{{ item.title }}
+      {% for link in item.additional_links %}
+        {% include a.html href=link.url class="" %}
+          <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+        </a>
+      {% endfor %}</h4>
+      <br>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
+
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.quote -%}
+        <p class="quote">{{ item.quote }}</p>
+      {%- endif -%}
+      {%- if item.image -%}
+      <div class="col-xs-12 col-sm-3 col-md-3 no-print">
+      <span align="left" class="pub-img" style="display=inline-block; margin:auto; background-image: url({{ item.image | relative_url }})" /></span>
+      </div>
+      <div class="col-xs-12 col-sm-9 col-md-9 col-print-12">
+      {{ item.description | strip | markdownify }}
+      </div>
+      {% else %}
+      {{ item.description | strip | markdownify }}
+      <br>
+      {%- endif -%}
+	  
+    </div>
+  </div>
+{% endfor %}
