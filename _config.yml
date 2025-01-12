@@ -11,6 +11,13 @@ darkmode: false
 github_username: HabibiMehdi
 linkedin_username: mehdi8habibi
 
+# Navigation
+navigation:
+  - title: Education
+    url: "#education"
+  - title: Experiences
+    url: "#experiences"
+
 # About Section
 about_profile_image: /images/profile.jpg
 about_content: |
