@@ -33,8 +33,8 @@ content:
         sub_title: Master's in Biomedical Engineering
         caption: Sep. 2022 - present
         description: |
-          **Supervisors**: [Prof. Mohammad Reza Daliri](https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao)
-          **Related Coursework**: Deep Learning, Computational Neuroscience, Brain-Machine Interface
+          **Supervisors**: [Prof. Mohammad Reza Daliri](https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao)  
+          **Related Coursework**: Deep Learning, Computational Neuroscience, Brain-Machine Interface  
           **Thesis**: Decoding Neural Signal (LFPs, ECoGs) using Deep Learning methods
 
       - layout: left
@@ -42,7 +42,7 @@ content:
         sub_title: BSc in Electrical Engineering
         caption: Sep. 2016 - Feb. 2021
         description: |
-          **Supervisor**: [Assistant Professor. Hamidreza Karami](https://scholar.google.com/citations?user=Qn35J5wAAAAJ&hl=en)
+          **Supervisor**: [Assistant Professor. Hamidreza Karami](https://scholar.google.com/citations?user=Qn35J5wAAAAJ&hl=en)  
           **Related Coursework**: Probability & Statistics, Linear Algebra, FPGA, Signals & Systems, CMOS, Numerical Methods, Design of Algorithms, Computer Simulation, Database Design, Data Structures & Algorithms
 
   - title: Experiences
