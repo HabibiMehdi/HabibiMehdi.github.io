@@ -52,7 +52,9 @@ content:
         title: Research Assistant
         sub_title: Neuroscience and Neuroengineering Laboratory (NNRL) Lab
         caption: March 2022 - present
-        quote: Neuroscience and Neuroengineering Laboratory (NNRL) Lab @ Iran University of Science and Technology, Iran
+        #quote: Neuroscience and Neuroengineering Laboratory (NNRL) Lab @ Iran University of Science and Technology, Iran
+        quote: "[Neuroscience and Neuroengineering Laboratory (NNRL) Lab](https://nnrl.ir/index.php/people/faculty-members/) @ Iran University of Science and Technology, Iran"
+
         description: |
           - Developed a new method for decoding neural signal using deep learning methods 
           - Implemented several interpretability methods of deep neural networks including Grad-CAM, Integrated Gradients, Vanilla Gradients in PyTorch
