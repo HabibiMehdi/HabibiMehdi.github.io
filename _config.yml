@@ -15,7 +15,7 @@ darkmode: false
 # Social links
 github_username: HabibiMehdi
 linkedin_username: mehdi8habibi
-orcid_username: 0009-0008-7777-1234  # example ID, replace with your real ORCID
+#orcid_username: 0009-0008-7777-1234  # example ID, replace with your real ORCID
 #twitter_username:  Mehdi8habibi         # your X (Twitter) handle, if any
 
 additional_links:
@@ -23,9 +23,9 @@ additional_links:
     icon: ai ai-orcid ai-2x
     url: https://orcid.org/0009-0001-6669-133X
 
-  #- title: My X Profile
-   # icon: fab fa-x-twitter
-   # url: https://x.com/Mehdi8habibi
+  - title: My X Profile
+    icon: fab fa-x-twitter
+    url: https://x.com/Mehdi8habibi
 
 
 # Navigation
