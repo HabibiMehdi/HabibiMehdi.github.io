@@ -5,7 +5,7 @@ version: 2
 # Personal info
 name: Mehdi Habibi
 email: thehabibi.mm@gmail.com
-darkmode: true
+darkmode: false
 
 # Social links
 github_username: HabibiMehdi
