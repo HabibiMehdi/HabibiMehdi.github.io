@@ -23,9 +23,9 @@ additional_links:
     icon: ai ai-orcid ai-2x
     url: https://orcid.org/0009-0001-6669-133X
 
-  - title: My X Profile
-    icon: fab fa-x-twitter
-    url: https://x.com/Mehdi8habibi
+  #- title: My X Profile
+   # icon: fab fa-x-twitter
+   # url: https://x.com/Mehdi8habibi
 
 
 # Navigation
@@ -73,10 +73,10 @@ content:
         title: Machine Learning Researcher and Engineer
         sub_title: Machine Learning and Neuroscience Developer (Germany, Remote)
         caption: 2025
-        quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit GmbH</a> @ Germany'
+        quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit </a> @ Germany'
         description: |
           - Developed and deployed machine learning models for neural signal decoding, focusing on stress detection for real-time applications
-          - Implemented advanced signal processing techniques for EEG and LFP data analysis
+          - Implemented advanced signal processing techniques for ECG, EDA, ACC and Temp data(using device : Empatica E4) analysis
           - Collaborated with international team on neuroscience research projects
           - Optimized algorithms for real-time performance in embedded systems
 
