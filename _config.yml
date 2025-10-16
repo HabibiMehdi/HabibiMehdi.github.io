@@ -36,8 +36,10 @@ navigation:
     url: "#experiences"
   - title: Publications
     url: "#publications"
-  - title: Hobbies and Interests
-    url: "#hobbies"
+  - title: Research Interests
+    url: "#Research Interests"
+  - title: Hobiies
+    url: "#Hobbies"
 
 # About Section
 about_profile_image: /images/profile.jpg
@@ -107,17 +109,20 @@ content:
           
           <span style="color:#000099">under review, Iscience(cell press)</span>
 
-  - title: Hobbies and Interests
+  - title: Research Interests
     layout: list
     content:
       - layout: left
-        title: Interests
+        title: Research Interests
         description: |
           - Computational neuroscience  
           - Sequential Decision Making  
           - Reinforcement Learning  
           - Large Language Models
-          
+
+  - title: Hobbies
+    layout: list
+    content:
       - layout: left
         title: Hobbies
         description: |
@@ -126,7 +131,6 @@ content:
           - Watching Formula 1 races  
           - Games  
           - Reading
-
 
 
 
