@@ -23,9 +23,9 @@ navigation:
 # About Section
 about_profile_image: /images/profile.jpg
 about_content: |
- Hello! I am Mehdi Habibi, a **machine learning** and **signal processing engineer** with a deep commitment to advancing interpretable, scalable algorithms for real-world applications.
- My background bridges **electrical engineering** and **computational neuroscience**, with experience developing and applying advanced optimization **(Python, Matlab)**, deep learning **(Pytorch)**, decoding neural signal methods.
- My research and engineering work have focused on developing innovative frameworks for neural signal**(spike/LFPs/ EEGs)** analysis related to the kinematic and kinetic aspects of movement control, complemented by a solid knowledge of **rodent models**, **experimental task design**, and surgical procedures, particularly in the context of electrophysiological recordings. In addition, I have practical expertise in **FPGA-based systems**, which allows me to integrate advanced computational methods with real-time applications in experimental neuroscience.
+  Hello! I am Mehdi Habibi, a **machine learning** and **signal processing engineer** with a deep commitment to advancing interpretable, scalable algorithms for real-world applications.
+  My background bridges **electrical engineering** and **computational neuroscience**, with experience developing and applying advanced optimization **(Python, Matlab)**, deep learning **(Pytorch)**, decoding neural signal methods.
+  My research and engineering work have focused on developing innovative frameworks for neural signal**(spike/LFPs/ EEGs)** analysis related to the kinematic and kinetic aspects of movement control, complemented by a solid knowledge of **rodent models**, **experimental task design**, and surgical procedures, particularly in the context of electrophysiological recordings. In addition, I have practical expertise in **FPGA-based systems**, which allows me to integrate advanced computational methods with real-time applications in experimental neuroscience.
 
 # Content sections
 content:
@@ -34,7 +34,7 @@ content:
     content:
       - layout: left
         title: Iran University of Science and Technology
-        sub_title: Master's in Biomedical Engineering
+        sub_title: MSc in Biomedical Engineering
         caption: Sep. 2022 - Aug. 2025
         description: |
           **Supervisors**: [Prof. Mohammad Reza Daliri](https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao)  
@@ -67,8 +67,8 @@ content:
     layout: list
     content:
       - layout: top
-        title: DeCLFPNet: Decoding Continuous Movement Parameters from Local Field Potentials with Band-Filtered Convolutional-LSTM
-        image: /images/publication1.jpg  # شما باید این تصویر را اضافه کنید
+        title: "DeCLFPNet: Decoding Continuous Movement Parameters from Local Field Potentials with Band-Filtered Convolutional-LSTM"
+        image: /images/publication1.jpg
         description: |
           <span style="color:#006400">Mohammad Mehdi Habibi Bina, Mehrdad Kashefi and Mohammad Reza Daliri</span>
           
