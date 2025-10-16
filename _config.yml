@@ -90,14 +90,16 @@ content:
         caption: March 2022 - present
         quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
         description: |
-          - In-depth knowledge of electrophysiological signal recording (e.g., LFPs) for motor tasks in animal models espically rodent
-          - Proficient in designing preprocessing pipelines for neural time-series data (filtering, CAR, feature extraction)
-          - Skilled in developing deep learning architectures (CNN , LSTM, attention, PCA-integrated models, Regression methods) for decoding hand force and movement trajectories
-          - Expertise in interpretable models to identify frequency bands and brain regions correlated with motor output
-          - Experienced in designing psychological tasks using Psychopy to study working memory
-          - Expert in implementing efficient neural signal decoding methods using interpretable AI techniques (e.g., Grad-CAM) in PyTorch, with advanced proficiency in CUDA and high-performance GPUs (e.g., NVIDIA A100)
-          - Skilled in designing and managing deep learning experiments for neuroscience applications, leveraging PyTorch, NumPy, and Matplotlib, with expertise in version control and collaboration using Git/GitHub
-
+          - **Experimental Design & Behavioral Task Development**: Motor and cognitive paradigms using PsychoPy
+          - **Strong Theoretical Understanding of Electrophysiological Recording Techniques**: LFPs, ECoG, EEG
+          - **Neural Signal Processing & Preprocessing**: Spectral and time-frequency feature extraction for neural time-series data
+          - **Deep Neural Architectures for Neural Decoding**: Advanced model development for brain signal interpretation
+          - **Motor Intention & Force Decoding**: From LFP dynamics analysis
+          - **Interpretable Neural Decoding Models**: Identifying frequency bands and cortical regions linked to motor output
+          - **Interpretable Deep Learning Pipelines**: Implementing Grad-CAM and related explainable AI methods
+          - **High-Performance Model Training**: GPU & CUDA optimization (e.g., NVIDIA A100)
+          - **Programming Expertise**: Python, MATLAB, and PyTorch for computational neuroscience
+          - **Data Visualization & Scientific Figure Preparation**: Professional figure design for research publications
   - title: Publications
     layout: list
     content:
