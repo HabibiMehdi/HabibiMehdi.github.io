@@ -17,6 +17,8 @@ navigation:
     url: "#education"
   - title: Experiences
     url: "#experiences"
+  - title: Publications
+    url: "#publications"
 
 # About Section
 about_profile_image: /images/profile.jpg
@@ -54,16 +56,21 @@ content:
         title: Research Assistant
         sub_title: Neuroscience and Neuroengineering Laboratory (NNRL) Lab
         caption: March 2022 - present
-        #quote: Neuroscience and Neuroengineering Laboratory (NNRL) Lab @ Iran University of Science and Technology, Iran
-        #quote: "[Neuroscience and Neuroengineering Laboratory (NNRL) Lab](https://nnrl.ir/index.php/people/faculty-members/) @ Iran University of Science and Technology, Iran"
         quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
-
-
         description: |
           - Developed a new method for decoding neural signal using deep learning methods 
           - Implemented several interpretability methods of deep neural networks including Grad-CAM, Integrated Gradients, Vanilla Gradients in PyTorch
           - Designed, and implemented experiments for evaluation/ablation using numpy, PyTorch, and matplotlib 
           - Presented findings using Jupyter and Tensorboard in meetings, and performed version control on Git
+
+  - title: Publications
+    layout: list
+    content:
+      - layout: left
+        title: '<strong style="color: black; font-size: 1.2em;">DeCLFPNet: Decoding Continuous Movement Parameters from Local Field Potentials with Band-Filtered Convolutional-LSTM</strong>'
+        sub_title: '<span style="color: #666; float: right;">under review, Iscience(cell press)</span>'
+        description: |
+          <p style="color: blue; margin-top: 10px;">Mohammad Mehdi Habibi Bina, Mehrdad Kashefi and Mohammad Reza Daliri</p>
 
 # Footer
 footer_show_references: true
