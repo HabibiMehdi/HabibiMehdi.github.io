@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic);
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
@@ -147,10 +148,13 @@ html {
     cursor: default;
     top: 0px; }
 
+/* Minimalist light gray background */
 body {
-  background: #ffffff;
-  font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased; }
+  background-color: #f2f2f2;  /* جایگزین رنگ دلخواه خاکستری روشن خود کنید */
+  color: #000000;             /* متن تیره برای خوانایی */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 
 .center-text {
   text-align: center; }
