@@ -1,31 +1,39 @@
-# Site configuration
+# Site
 repository: https://habibimehdi.github.io/
+# favicon: /images/favicon.ico  # optional
+
+# Content configuration version
 version: 2
 
 # Personal info
-name: Mehdi Habibi
+name: Mohammad Mehdi Habibi
 email: thehabibi.mm@gmail.com
+
+# Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 github_username: HabibiMehdi
 linkedin_username: mehdi8habibi
+orcid_username: 0009-0008-7777-1234  # example ID, replace with your real ORCID
+twitter_username: thehabibimm         # your X (Twitter) handle, if any
 
-# Navigation
-navigation:
-  - title: Education
-    url: "#education"
-  - title: Experiences
-    url: "#experiences"
-  - title: Publications
-    url: "#publications"
+# Additional icon links
+additional_links:
+  - title: My ORCID
+    icon: ai ai-orcid ai-2x
+    url: https://orcid.org/0009-0008-7777-1234  # replace with your ORCID URL
+  - title: My X Profile
+    icon: fab fa-x-twitter
+    url: https://x.com/thehabibimm  # replace with your username
 
 # About Section
 about_profile_image: /images/profile.jpg
 about_content: |
-  Hello! I am Mehdi Habibi, a **machine learning** and **signal processing engineer** with a deep commitment to advancing interpretable, scalable algorithms for real-world applications.
-  My background bridges **electrical engineering** and **computational neuroscience**, with experience developing and applying advanced optimization **(Python, Matlab)**, deep learning **(Pytorch)**, decoding neural signal methods.
-  My research and engineering work have focused on developing innovative frameworks for neural signal**(spike/LFPs/ EEGs)** analysis related to the kinematic and kinetic aspects of movement control, complemented by a solid knowledge of **rodent models**, **experimental task design**, and surgical procedures, particularly in the context of electrophysiological recordings. In addition, I have practical expertise in **FPGA-based systems**, which allows me to integrate advanced computational methods with real-time applications in experimental neuroscience.
+  Hello! I am **Mehdi Habibi**, a **Machine Learning** and **Signal Processing Engineer** dedicated to developing interpretable and efficient algorithms for real-world neuroscience and biomedical challenges.  
+  My background bridges **Electrical Engineering** and **Computational Neuroscience**, focusing on neural decoding, optimization algorithms (**Python, MATLAB**), and deep learning architectures (**PyTorch**).  
+  I specialize in analyzing neural signals (**LFPs, ECoGs, EEGs**) related to movement control, supported by strong experience in **rodent behavioral experiments**, **surgical recording setups**, and **experimental task design**.  
+  Additionally, I have hands-on expertise in **FPGA-based systems**, integrating advanced computational approaches with real-time neuroscience experiments.
 
 # Content sections
 content:
@@ -34,45 +42,74 @@ content:
     content:
       - layout: left
         title: Iran University of Science and Technology
-        sub_title: Master's in Biomedical Engineering
+        sub_title: MSc in Biomedical Engineering
         caption: Sep. 2022 - Aug. 2025
         description: |
-          **Supervisors**: [Prof. Mohammad Reza Daliri](https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao)  
+          **Supervisor**: [Prof. Mohammad Reza Daliri](https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en)  
           **Related Coursework**: Deep Learning, Computational Neuroscience, Brain-Machine Interface  
-          **Thesis**: Decoding Neural Signal (LFPs, ECoGs) using Deep Learning methods
+          **Thesis**: Continuous Decoding of Movement-Related Parameters from Neural Signals (LFPs/ECoGs) using Deep Neural Networks  
 
       - layout: left
         title: Bu-Ali Sina University
         sub_title: BSc in Electrical Engineering
         caption: Sep. 2017 - Feb. 2022
         description: |
-          **Supervisor**: [Assistant Professor. Hamidreza Karami](https://scholar.google.com/citations?user=Qn35J5wAAAAJ&hl=en)  
-          **Related Coursework**: Probability & Statistics, Linear Algebra, FPGA, Signals & Systems, CMOS, Numerical Methods, Design of Algorithms, Computer Simulation, Database Design, Data Structures & Algorithms
+          **Thesis**: Design and Implementation of a Smart Neural Signal Amplifier for Real-Time Applications  
+          **Related Coursework**: Signal Processing, Control Systems, FPGA Design, Digital Electronics
 
-  - title: Experiences
+  - title: Research Experience
     layout: list
     content:
       - layout: left
-        title: Research Assistant
-        sub_title: Neuroscience and Neuroengineering Laboratory (NNRL) Lab
-        caption: March 2022 - present
-        quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
+        title: Graduate Researcher
+        sub_title: Cognitive Neuroscience Lab, IUST
+        caption: Sep. 2022 – Present
         description: |
-          - Developed a new method for decoding neural signal using deep learning methods 
-          - Implemented several interpretability methods of deep neural networks including Grad-CAM, Integrated Gradients, Vanilla Gradients in PyTorch
-          - Designed, and implemented experiments for evaluation/ablation using numpy, PyTorch, and matplotlib 
-          - Presented findings using Jupyter and Tensorboard in meetings, and performed version control on Git
+          + Conducted electrophysiological recordings (LFPs) in rodent models performing motor tasks.  
+          + Developed preprocessing pipelines (filtering, CAR, feature extraction) for neural time-series data.  
+          + Designed deep learning architectures (CNN-LSTM, RNN, PCA-integrated models) for decoding hand force and movement trajectories.  
+          + Investigating interpretable models to identify frequency bands and spatial locations most correlated with motor output.  
+
+      - layout: left
+        title: Research Assistant
+        sub_title: Neural Signal Processing Group
+        caption: Sep. 2020 – Feb. 2022
+        description: |
+          + Worked on decoding movement intention from EEG/LFP signals using classical ML and DL methods.  
+          + Implemented feature extraction pipelines in MATLAB and PyTorch.  
+          + Conducted comparative studies between time–frequency feature spaces and raw-signal-based models.
+
+  - title: Technical Skills
+    layout: text
+    content: |
+      - **Programming**: Python, MATLAB, C++, Verilog  
+      - **Deep Learning Frameworks**: PyTorch, TensorFlow  
+      - **Signal Processing**: FIR/IIR Filter Design, Time–Frequency Analysis, Wavelet Decomposition  
+      - **Hardware**: FPGA (Xilinx, Altera), Data Acquisition, Amplifier Design  
+      - **Tools**: Git, Jupyter, Linux, LaTeX  
+
+  - title: Honors & Awards
+    layout: text
+    content: |
+      - Graduate Fellowship, Iran University of Science and Technology (2024)  
+      - Ranked among top 10% of National M.Sc. Entrance Exam in Biomedical Engineering (2022)  
+      - Awarded "Outstanding BSc Thesis" recognition, Bu-Ali Sina University (2021)  
+      - Selected for Iran’s National Elites Foundation (INEF) Talent Program (2019–2022)
 
   - title: Publications
     layout: list
     content:
       - layout: top
-        title: "DeCLFPNet: Decoding Continuous Movement Parameters from Local Field Potentials with Band-Filtered Convolutional-LSTM"
-        image: /images/publication1.jpg
+        title: Decoding Continuous Movement Parameters from Local Field Potentials using CNN-LSTM Architectures
         description: |
-          <span style="color:#006400">Mohammad Mehdi Habibi Bina, Mehrdad Kashefi and Mohammad Reza Daliri</span>
-          
-          <span style="color:#000099">under review, Iscience(cell press)</span>
+          Developing a hybrid deep learning model that combines convolutional and recurrent layers for decoding force trajectories from multi-channel LFP signals in rodents.  
+          The model integrates frequency-band filtering and interpretable weight analysis for identifying neural biomarkers of movement control.  
+          **Status**: Under Review (iscience: Cell Press)  
+
+  - title: References
+    layout: text
+    content: |
+      Available upon request.
 
 # Footer
 footer_show_references: true
@@ -83,16 +120,17 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - lib/
-  - scripts/
-  - docker-compose.yml
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+]
