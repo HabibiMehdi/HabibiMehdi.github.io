@@ -113,12 +113,18 @@ content:
     layout: list
     content:
       - layout: left
-        title: Research Interests
+        title: Computational & AI Research
         description: |
           - Computational neuroscience  
           - Sequential Decision Making  
           - Reinforcement Learning  
           - Large Language Models
+          
+      - layout: left
+        title: Neural Engineering & BCI
+        description: |
+          - Neural Engineering
+          - Brain-Computer Interfaces (BCI)
 
   - title: Hobbies
     layout: list
