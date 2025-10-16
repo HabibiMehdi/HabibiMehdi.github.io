@@ -118,15 +118,11 @@ content:
         title: Computational & AI Research
         description: |
           - Computational neuroscience  
-          - Sequential Decision Making  
-          - Reinforcement Learning  
-          - Large Language Models
-          
-      - layout: left
-        title: Neural Engineering & BCI
-        description: |
-          - Neural Engineering
+          - Sequential Decision Making 
           - Brain-Computer Interfaces (BCI)
+          - Reinforcement Learning  
+          - Large Language Models (LLM)
+          
 
   - title: Hobbies
     layout: list
@@ -134,12 +130,7 @@ content:
       - layout: left
         title: Hobbies
         description: |
-          - Movies  
-          - Playing football  
-          - Watching Formula 1 races  
-          - Games  
-          - Reading
-
+          Movies, Playing Football, Watching Formula 1, Gaming, Reading
 
 
 # Footer
