@@ -36,6 +36,8 @@ navigation:
     url: "#experiences"
   - title: Publications
     url: "#publications"
+  - title: Hobbies and Interests
+    url: "#hobbies"
 
 # About Section
 about_profile_image: /images/profile.jpg
@@ -104,6 +106,29 @@ content:
           <span style="color:#006400">Mohammad Mehdi Habibi Bina, Mehrdad Kashefi and Mohammad Reza Daliri</span>
           
           <span style="color:#000099">under review, Iscience(cell press)</span>
+
+  - title: Hobbies and Interests
+    layout: list
+    content:
+      - layout: left
+        title: Interests
+        description: |
+          - Computational neuroscience  
+          - Sequential Decision Making  
+          - Reinforcement Learning  
+          - Large Language Models
+          
+      - layout: left
+        title: Hobbies
+        description: |
+          - Movies  
+          - Playing football  
+          - Watching Formula 1 races  
+          - Games  
+          - Reading
+
+
+
 
 # Footer
 footer_show_references: true
