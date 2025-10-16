@@ -51,12 +51,12 @@ content:
     content:
       - layout: left
         title: Iran University of Science and Technology
-        sub_title: Master's in Biomedical Engineering
+        sub_title: MSc in Biomedical Engineering
         caption: Sep. 2022 - Aug. 2025
         description: |
           **Supervisors**: [Prof. Mohammad Reza Daliri](https://scholar.google.com/citations?user=yonTD4EAAAAJ&hl=en&oi=ao)  
           **Related Coursework**: Deep Learning, Computational Neuroscience, Brain-Machine Interface  
-          **Thesis**: Decoding Neural Signal (LFPs, ECoGs) using Deep Learning methods
+          **Thesis**: Detection of P300 component with the aim of improving efficiency using deep learning method
 
       - layout: left
         title: Bu-Ali Sina University
@@ -76,7 +76,7 @@ content:
         quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit </a> @ Germany'
         description: |
           - Developed and deployed machine learning models for neural signal decoding, focusing on stress detection for real-time applications
-          - Implemented advanced signal processing techniques for ECG, EDA, ACC and Temp data(using device : Empatica E4) analysis
+          - Implemented advanced signal processing techniques for ECG, EDA, ACC and Temp data (device:Empatica E4) analysis
           - Collaborated with international team on neuroscience research projects
           - Optimized algorithms for real-time performance in embedded systems
 
@@ -86,10 +86,13 @@ content:
         caption: March 2022 - present
         quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
         description: |
-          - Developed a new method for decoding neural signal using deep learning methods 
-          - Implemented several interpretability methods of deep neural networks including Grad-CAM, Integrated Gradients, Vanilla Gradients in PyTorch
-          - Designed, and implemented experiments for evaluation/ablation using numpy, PyTorch, and matplotlib 
-          - Presented findings using Jupyter and Tensorboard in meetings, and performed version control on Git
+          - In-depth knowledge of electrophysiological signal recording (e.g., LFPs) for motor tasks in animal models espically rodent
+          - Proficient in designing preprocessing pipelines for neural time-series data (filtering, CAR, feature extraction)
+          - Skilled in developing deep learning architectures (CNN , LSTM, attention, PCA-integrated models, Regression methods) for decoding hand force and movement trajectories
+          - Expertise in interpretable models to identify frequency bands and brain regions correlated with motor output
+          - Experienced in designing psychological tasks using Psychopy to study working memory
+          - Expert in implementing efficient neural signal decoding methods using interpretable AI techniques (e.g., Grad-CAM) in PyTorch, with advanced proficiency in CUDA and high-performance GPUs (e.g., NVIDIA A100)
+          - Skilled in designing and managing deep learning experiments for neuroscience applications, leveraging PyTorch, NumPy, and Matplotlib, with expertise in version control and collaboration using Git/GitHub
 
   - title: Publications
     layout: list
