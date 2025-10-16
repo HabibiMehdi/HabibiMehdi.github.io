@@ -66,11 +66,13 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: left
-        title: '<strong style="color: black; font-size: 1.2em;">DeCLFPNet: Decoding Continuous Movement Parameters from Local Field Potentials with Band-Filtered Convolutional-LSTM</strong>'
-        sub_title: '<span style="color: #666; float: right;">under review, Iscience(cell press)</span>'
+      - layout: top
+        title: DeCLFPNet: Decoding Continuous Movement Parameters from Local Field Potentials with Band-Filtered Convolutional-LSTM
+        image: /images/publication1.jpg  # شما باید این تصویر را اضافه کنید
         description: |
-          <p style="color: blue; margin-top: 10px;">Mohammad Mehdi Habibi Bina, Mehrdad Kashefi and Mohammad Reza Daliri</p>
+          <span style="color:#006400">Mohammad Mehdi Habibi Bina, Mehrdad Kashefi and Mohammad Reza Daliri</span>
+          
+          <span style="color:#000099">under review, Iscience(cell press)</span>
 
 # Footer
 footer_show_references: true
