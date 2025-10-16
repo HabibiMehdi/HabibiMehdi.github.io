@@ -15,8 +15,8 @@ darkmode: false
 # Social links
 github_username: HabibiMehdi
 linkedin_username: mehdi8habibi
-#orcid_username: 0009-0008-7777-1234  # example ID, replace with your real ORCID
-twitter_username:  Mehdi8habibi         # your X (Twitter) handle, if any
+orcid_username: 0009-0008-7777-1234  # example ID, replace with your real ORCID
+#twitter_username:  Mehdi8habibi         # your X (Twitter) handle, if any
 
 additional_links:
   - title: My ORCID
@@ -77,12 +77,14 @@ content:
         title: Machine Learning Researcher and Engineer
         sub_title: Machine Learning and Neuroscience Developer (Germany, Remote)
         caption: 2025
-        quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit </a> @ Germany'
+        quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit GmbH</a> @ Germany'
         description: |
-          - Developed and deployed machine learning models for neural signal decoding, focusing on stress detection for real-time applications
-          - Implemented advanced signal processing techniques for ECG, EDA, ACC and Temp data (device:Empatica E4) analysis
-          - Collaborated with international team on neuroscience research projects
-          - Optimized algorithms for real-time performance in embedded systems
+          - **Physiological Signal Processing**: EDA, EMG, ECG, ACC, Temperature
+          - **Deep Learning for Real-Time Applications**: Low-latency model development and deployment
+          - **Wearable Device Implementation**: Empatica E4 and similar wearable technologies
+          - **Applications**: Stress Detection, Activity Recognition in real-world scenarios
+          - **Team Collaboration**: Collaborated with international teams on neuroscience research projects
+          - **Signal Analysis & Model Optimization**: Developing interpretable, reliable, and low-latency systems
 
       - layout: left
         title: Research Assistant
