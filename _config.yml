@@ -131,11 +131,11 @@ content:
           - Large Language Models (LLM)
           
 
-  - title: My Hobbies
+  - title: Hobbies
     layout: list
     content:
       - layout: left
-        title: Hobbies
+        title: My Hobbies
         description: |
           Movies, Floral design, Gaming, Reading, Watching Formula 1
 
