@@ -68,10 +68,9 @@ body { background-color: #87ceeb; color: #000000; font-family: "Helvetica Neue",
 .header-right { text-align: right; }
 .header-left { margin-top: 30px; }
 
-/* Custom Icons */
 .custom-icons img {
-  width: 22px;
-  height: 22px;
+  max-width: 32px;   // اندازه بزرگتر
+  max-height: 32px;  // اندازه بزرگتر
   margin: 0 6px;
   padding: 2px;
   border-radius: 4px;
@@ -82,12 +81,6 @@ body { background-color: #87ceeb; color: #000000; font-family: "Helvetica Neue",
 .custom-icons img:hover {
   opacity: 1;
   transform: scale(1.15);
-}
-
-/* SVG ORCID */
-.custom-icons img[src$=".svg"] {
-  background-color: transparent;
-  padding: 0;
 }
 
 /* Dark Mode */
