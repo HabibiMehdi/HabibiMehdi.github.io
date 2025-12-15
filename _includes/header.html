@@ -17,156 +17,76 @@
            <div class="collapse navbar-collapse inner" id="myNavbar">
              <ul class="nav navbar-nav">
                <li><a href="#Education...">Education</a></li>
-               
-               
-               
                <li><a href="#Experiences...">Experiences</a></li>
                <li><a href="#Publications...">Publications</a></li>
-               
                <li><a href="#Research Interests...">Research Interests</a></li>
                <li><a href="#Hobbies...">Hobbies and Interests</a></li>
-               
              </ul>
            </div>
          </div>
        </nav> 
     </div>
+
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
-<h1 style="font-family:'Poppins', sans-serif; font-size:3em; letter-spacing:1px;">
-  <span style="background: linear-gradient(90deg, #666666 0%, #333333 50%, #000000 100%);
-               -webkit-background-clip: text;
-               -webkit-text-fill-color: transparent;
-               font-weight:300;">Mohammad</span>
-  
-  <span style="background: linear-gradient(90deg, #333333 0%, #1a1a1a 50%, #000000 100%);
-               -webkit-background-clip: text;
-               -webkit-text-fill-color: transparent;
-               font-weight:500;"> Mehdi</span>
-  
-  <span style="background: linear-gradient(90deg, #1a1a1a 0%, #0d0d0d 50%, #000000 100%);
-               -webkit-background-clip: text;
-               -webkit-text-fill-color: transparent;
-               font-weight:700;"> Habibi</span>
-</h1>
-<!-- <h1>{{ site.name | escape }}</h1> -->
-<!-- <h2>{{ site.title | escape }}</h2> -->
+      <h1 style="font-family:'Poppins', sans-serif; font-size:3em; letter-spacing:1px;">
+        <span style="background: linear-gradient(90deg, #666666 0%, #333333 50%, #000000 100%);
+                     -webkit-background-clip: text;
+                     -webkit-text-fill-color: transparent;
+                     font-weight:300;">Mohammad</span>
+        
+        <span style="background: linear-gradient(90deg, #333333 0%, #1a1a1a 50%, #000000 100%);
+                     -webkit-background-clip: text;
+                     -webkit-text-fill-color: transparent;
+                     font-weight:500;"> Mehdi</span>
+        
+        <span style="background: linear-gradient(90deg, #1a1a1a 0%, #0d0d0d 50%, #000000 100%);
+                     -webkit-background-clip: text;
+                     -webkit-text-fill-color: transparent;
+                     font-weight:700;"> Habibi</span>
+      </h1>
     </div>
+
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-      <ul class="icons no-print">
-        {%- if site.dribbble_username -%}
-          <li>
-            <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-dribbble-square" title="Dribble link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.facebook_username -%}
-          <li>
-            <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-facebook" title="Facebook link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.flickr_username -%}
-          <li>
-            <a target="_blank" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-flickr" title="Flickr link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.github_username -%}
-          <li>
-            <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-github" title="My Github"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.semantic_scholar_username -%}
-          <li>
-            <a target="_blank" href="https://www.semanticscholar.org/author/{{ site.semantic_scholar_username| cgi_escape | escape | replace:'%2B','/'}}" class="button button--sacnite button--round-l">
-              <i class="ai ai-semantic-scholar ai-4x" title="My Semantic Scholar"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.google_scholar_username -%}
-          <li>
-            <a target="_blank" href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_username }}" class="button button--sacnite button--round-l">
-              <i class="ai ai-google-scholar ai-4x" title="My Google Scholar"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.stackoverflow_username -%}
-          <li>
-            <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-stack-overflow" title="Stackoverflow link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.instagram_username -%}
-          <li>
-            <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-instagram" title="Instagram link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.linkedin_username -%}
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-linkedin" title="My LinkedIn"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.xing_username -%}
-          <li>
-            <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-xing" title="Xing link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.pinterest_username -%}
-          <li>
-            <a target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-pinterest" title="Pintrest link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.twitter_username -%}
-          <li>
-            <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-twitter" title="Twitter link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.youtube_username -%}
-          <li>
-            <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-youtube" title="Youtube link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.googleplus_username -%}
-          <li>
-            <a target="_blank" href="https://plus.google.com/{{ site.googleplus_username| escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-google-plus" title="Google plus link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.orcid_username -%}
-          <li>
-            <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-orcid" title="ORCiD link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {% for link in site.additional_links %}
-          <li>
-            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
-            </a>
-          </li>
-        {% endfor %}
+      <!-- Custom social icons -->
+      <ul class="icons no-print custom-icons">
+        <li>
+          <a href="https://github.com/HabibiMehdi" target="_blank" aria-label="GitHub">
+            <img src="/images/icons/github.png" alt="GitHub icon">
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:thehabibi.mm@gmail.com" target="_blank" aria-label="Email">
+            <img src="/images/icons/gmail.png" alt="Email icon">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/mehdi8habibi/" target="_blank" aria-label="LinkedIn">
+            <img src="/images/icons/linkedin.png" alt="LinkedIn icon">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/Mehdi8habibi" target="_blank" aria-label="Twitter">
+            <img src="/images/icons/twitter.png" alt="Twitter icon">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://scholar.google.com/citations?user=XXXXXXXXXXX" target="_blank" aria-label="Google Scholar">
+            <img src="/images/icons/googlescholar.png" alt="Google Scholar icon">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://orcid.org/0009-0001-6669-133X" target="_blank" aria-label="ORCID">
+            <img src="/images/icons/ORCID_iD.svg" alt="ORCID icon">
+          </a>
+        </li>
       </ul>
 
+      <!-- Contact info -->
       {%- if site.email -%}
         <p>
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
@@ -184,5 +104,4 @@
       {%- endif -%}
     </div>
   </div>
-
 </div>
