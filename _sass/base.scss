@@ -1,11 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic);
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css);
-@import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
-@import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
-@import url(https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
+@import url("https://use.fontawesome.com/releases/v5.11.2/css/all.css");
+@import url("https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css");
+@import url("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css");
 
-/* دکمه‌ها */
-button, input[type="button"], input[type="reset"], input[type="submit"] {
+/* ========================
+   دکمه‌ها
+======================== */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   appearance: none;
   background-color: #477dca;
   border: 0;
@@ -18,35 +23,103 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   line-height: 1;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
-  transition: background-color 150ms ease, color 150ms ease;
+  transition: background-color 150ms ease;
 }
-button:hover, input[type="button"]:hover, input[type="submit"]:hover { background-color: #3964a2; }
-button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; }
 
-/* fieldset و فرم */
-fieldset { background-color: #f7f7f7; border: 1px solid #ddd; padding: 1.5rem; margin-bottom: 0.75rem; }
-input, label, select { font-family: "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif; font-size: 1rem; }
-label { font-weight: 600; margin-bottom: 0.375rem; }
-label.required::after { content: "*"; }
-select { margin-bottom: 1.5rem; max-width: 100%; width: auto; }
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: #3964a2;
+}
 
-/* جدول‌ها */
-table { border-collapse: collapse; table-layout: fixed; width: 100%; margin: 0.75rem 0; }
-th { border-bottom: 1px solid #a6a6a6; font-weight: 600; padding: 0.75rem 0; text-align: left; }
-td { border-bottom: 1px solid #ddd; padding: 0.75rem 0; }
+button:disabled,
+input[type="button"]:disabled,
+input[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 
-/* تصویر و عناصر پایه */
-img, picture { max-width: 100%; }
-html { box-sizing: border-box; }
-*, *::after, *::before { box-sizing: inherit; }
+/* ========================
+   Fieldset و فرم
+======================== */
+fieldset {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin-bottom: 0.75rem;
+}
 
-/* دکمه‌های بزرگ */
+input,
+label,
+select {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.375rem;
+}
+
+label.required::after {
+  content: "*";
+}
+
+select {
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+  width: auto;
+}
+
+/* ========================
+   جدول‌ها
+======================== */
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0.75rem 0;
+}
+
+th {
+  border-bottom: 1px solid #a6a6a6;
+  font-weight: 600;
+  padding: 0.75rem 0;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75rem 0;
+}
+
+/* ========================
+   تصویر و عناصر پایه
+======================== */
+img,
+picture {
+  max-width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* ========================
+   دکمه‌های بزرگ
+======================== */
 .btn {
   border: none;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  background: #DEDEDE;
+  background: #dedede;
   cursor: pointer;
   padding: 18px 60px;
   display: inline-block;
@@ -54,23 +127,51 @@ html { box-sizing: border-box; }
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  transition: all 0.3s ease;
+  transition: all 0.3s;
 }
-.btn:hover { background: #CCCCCC; }
 
-/* پس‌زمینه و فونت سایت */
-body { background-color: #87ceeb; color: #000000; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; transition: background-color 0.3s ease, color 0.3s ease; }
+.btn:hover {
+  background: #cccccc;
+}
 
-/* کلاس‌ها و بخش‌ها */
-.center-text { text-align: center; }
-.container { margin-top:30px; }
-.header-contianer { margin-top:50px; }
-.header-right { text-align: right; }
-.header-left { margin-top: 30px; }
+/* ========================
+   پس‌زمینه و فونت سایت
+======================== */
+body {
+  background-color: #87ceeb;
+  color: #000000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+/* ========================
+   کلاس‌ها و بخش‌ها
+======================== */
+.center-text {
+  text-align: center;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.header-contianer {
+  margin-top: 50px;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.header-left {
+  margin-top: 30px;
+}
+
+/* ========================
+   Custom Icons
+======================== */
 .custom-icons img {
-  max-width: 32px;   // اندازه بزرگتر
-  max-height: 32px;  // اندازه بزرگتر
+  width: 22px;
+  height: 22px;
   margin: 0 6px;
   padding: 2px;
   border-radius: 4px;
@@ -82,6 +183,13 @@ body { background-color: #87ceeb; color: #000000; font-family: "Helvetica Neue",
   opacity: 1;
   transform: scale(1.15);
 }
+
+/* SVG ORCID */
+.custom-icons img[src$=".svg"] {
+  background-color: transparent;
+  padding: 0;
+}
+
 
 /* Dark Mode */
 body.dark-mode {
