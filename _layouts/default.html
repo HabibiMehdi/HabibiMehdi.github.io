@@ -4,7 +4,7 @@
 {%- include head.html -%}
 
 <!-- قبلی: <body style="background-image: url('/images/bg.jpg');"> -->
-<body style="background-color: #F4F4F4;">
+<body style="background-color: #F4F4F4; transition: background-color 0.3s ease, color 0.3s ease;">
 
   {%- include header.html -%}
 
@@ -27,29 +27,61 @@
         {% endfor %}
       {% else %}
         {%- include v1/default.html -%}
-      {%- endif -%}
+      {% endif -%}
     </div>
   </main>
 
   {%- include footer.html -%}
+
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
-</body>
-  <script> 
-  function moreFunction(dots_id, more_id, btn_id) {
-    var dots = document.getElementById(dots_id);
-    var moreText = document.getElementById(more_id);
-    var btnText = document.getElementById(btn_id);
 
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "More";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Less";
-      moreText.style.display = "inline";
-    }
-  } </script>
+  <!-- Dark Mode JS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const darkModeIcon = document.getElementById('darkModeIcon');
+      const body = document.body;
+
+      if (!darkModeIcon) return; // اگر هدر هنوز لود نشده بود، جلوگیری از خطا
+
+      // بررسی وضعیت ذخیره شده در localStorage
+      if(localStorage.getItem('darkMode') === 'enabled') {
+        body.classList.add('dark-mode');
+        darkModeIcon.classList.replace('fa-moon', 'fa-sun');
+      }
+
+      darkModeIcon.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+
+        if(body.classList.contains('dark-mode')) {
+          darkModeIcon.classList.replace('fa-moon', 'fa-sun');
+          localStorage.setItem('darkMode', 'enabled');
+        } else {
+          darkModeIcon.classList.replace('fa-sun', 'fa-moon');
+          localStorage.setItem('darkMode', 'disabled');
+        }
+      });
+    });
+  </script>
+
+  <!-- More/Less Function -->
+  <script> 
+    function moreFunction(dots_id, more_id, btn_id) {
+      var dots = document.getElementById(dots_id);
+      var moreText = document.getElementById(more_id);
+      var btnText = document.getElementById(btn_id);
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "More";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Less";
+        moreText.style.display = "inline";
+      }
+    } 
+  </script>
+</body>
 </html>
