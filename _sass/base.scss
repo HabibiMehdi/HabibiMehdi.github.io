@@ -94,7 +94,22 @@ body.dark-mode {
   button, .btn { background-color: #333; color: #f0f0f0; }
   button:hover, .btn:hover { background-color: #555; }
 
-  /* Custom Icons در حالت Dark */
+  /* Custom Icons */
   .custom-icons img { opacity: 0.8; }
   .custom-icons img:hover { opacity: 1; transform: scale(1.15); }
+}
+
+/* Dark Mode Toggle Icon */
+.dark-mode-toggle i {
+  font-size: 1.5rem;
+  color: #000;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+body.dark-mode .dark-mode-toggle i {
+  color: #f0f0f0;
+}
+
+.dark-mode-toggle i:hover {
+  transform: scale(1.2);
 }
