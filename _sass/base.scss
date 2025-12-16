@@ -190,76 +190,89 @@ body {
   padding: 0;
 }
 
+/*  ------ */
+/* ===== Research Focus – High-end Academic UI ===== */
 
-/* =========================
-   Research Interests – Advanced Interaction
-   ========================= */
-
-.research-tags {
-  margin-top: 15px;
+.research-focus {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  margin-top: 32px;
 }
 
-.research-item {
+/* Card */
+.focus-card {
   position: relative;
-  display: inline-block;
-  margin: 8px 10px;
-}
-
-/* Main tag */
-.research-tag {
-  display: inline-block;
-  padding: 10px 18px;
-  font-size: 1.05em;          /* بزرگ‌تر */
-  font-weight: 600;
-  border-radius: 24px;
-  background: #f2f2f2;
-  color: #1a1a1a;
-  cursor: default;
-
-  transition: all 0.25s ease;
-}
-
-/* Hover on main tag */
-.research-item:hover .research-tag {
-  transform: scale(1.15);
-  background: linear-gradient(135deg, #111, #3a3a3a);
-  color: #ffffff;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
-}
-
-/* Popup box */
-.research-popup {
-  position: absolute;
-  top: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-
-  min-width: 220px;
-  padding: 10px 14px;
-  border-radius: 10px;
-
   background: #ffffff;
-  color: #222;
-  font-size: 0.85em;
-  line-height: 1.6;
-  text-align: center;
+  border-radius: 20px;
+  padding: 32px 28px;
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.06),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.04);
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  cursor: pointer;
+}
 
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+/* Title */
+.focus-card h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+  margin: 0;
+}
 
+/* Hidden content */
+.focus-content {
+  margin-top: 18px;
   opacity: 0;
-  visibility: hidden;
-  transition: all 0.25s ease;
-  z-index: 10;
+  transform: translateY(12px);
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
 }
 
-/* Show popup on hover */
-.research-item:hover .research-popup {
+.focus-content ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.focus-content li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #334155;
+}
+
+/* Hover interaction */
+.focus-card:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(37, 99, 235, 0.15);
+}
+
+.focus-card:hover h3 {
+  color: #2563eb;
+}
+
+.focus-card:hover .focus-content {
   opacity: 1;
-  visibility: visible;
-  top: 135%;
+  transform: translateY(0);
+  max-height: 260px;
 }
 
+/* Mobile: tap-to-expand */
+@media (max-width: 768px) {
+  .focus-card {
+    cursor: default;
+  }
 
+  .focus-card:active .focus-content {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 260px;
+  }
+}
 
 
 /* Dark Mode */
