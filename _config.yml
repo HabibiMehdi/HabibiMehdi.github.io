@@ -117,69 +117,46 @@ content:
           <span style="color:#006400">Mohammad Mehdi Habibi Bina, Mehrdad Kashefi and Mohammad Reza Daliri</span>
           
           <span style="color:#000099">under review, Iscience(cell press)</span>
-  - title: Research Interests
-    layout: list
-    content:
-      - layout: left
-        title: Research Focus
-        description: |
-          <div class="research-tags">
 
-            <div class="research-item">
-              <span class="research-tag">Computational Neuroscience</span>
-              <div class="research-popup">
-                Neural decoding (spike, LFP, ECoG)<br>
-                Control of movement<br>
-                Neural population dynamics
-              </div>
-            </div>
 
-            <div class="research-item">
-              <span class="research-tag">Brain–Computer Interfaces (BCI)</span>
-              <div class="research-popup">
-                Deep learning for EEG (e.g., P300 speller)<br>
-                Assistive & rehabilitation-oriented BCIs<br>
-                State-of-the-art models (e.g., ATCNet)
-              </div>
-            </div>
+description: |
+  <section class="research-focus">
 
-            <div class="research-item">
-              <span class="research-tag">Neural Signal Processing</span>
-              <div class="research-popup">
-                Time–frequency representations<br>
-                Multi-channel neural features<br>
-                Physiologically interpretable pipelines
-              </div>
-            </div>
+    <div class="focus-card">
+      <h3>Computational Neuroscience</h3>
+      <div class="focus-content">
+        <ul>
+          <li>Neural Decoding (spike, LFP, ECoG)</li>
+          <li>Control of Movement</li>
+          <li>Neural Population Dynamics</li>
+        </ul>
+      </div>
+    </div>
 
-            <div class="research-item">
-              <span class="research-tag">Interpretable Deep Learning</span>
-              <div class="research-popup">
-                CNN–RNN-Attention architectures<br>
-                Attention-based explanations<br>
-                Model interpretability for neural data
-              </div>
-            </div>
+    <div class="focus-card">
+      <h3>Brain–Computer Interfaces (BCI)</h3>
+      <div class="focus-content">
+        <ul>
+          <li>Deep Learning for EEG (P300 speller)</li>
+          <li>Rehabilitation-oriented BCIs</li>
+          <li>Advanced architectures (ATCNet)</li>
+        </ul>
+      </div>
+    </div>
 
-            <div class="research-item">
-              <span class="research-tag">Reinforcement Learning</span>
-              <div class="research-popup">
-                Motor control policies<br>
-                Sequential decision-making<br>
-                Brain-inspired learning frameworks
-              </div>
-            </div>
+    <div class="focus-card">
+      <h3>LLMs for Neuroscience</h3>
+      <div class="focus-content">
+        <ul>
+          <li>Spike-based tokenization</li>
+          <li>Transformer & attention mechanisms</li>
+          <li>Neural foundation models (EEGPT, POYO)</li>
+        </ul>
+      </div>
+    </div>
 
-            <div class="research-item">
-              <span class="research-tag">LLMs for Neuroscience</span>
-              <div class="research-popup">
-                Spike-based tokenization<br>
-                Attention & transformer models<br>
-                Neural foundation models (e.g., EEGPT, POYO)
-              </div>
-            </div>
+  </section>
 
-          </div>
 
           
 
