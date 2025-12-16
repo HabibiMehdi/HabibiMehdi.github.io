@@ -38,8 +38,8 @@ navigation:
     url: "#publications"
   - title: Research Interests
     url: "#Research Interests"
-  - title: academic-activities
-    url: "#academic-activities"
+  - title: Academic Activities
+    url: "#Academic Activities"
   - title: Hobiies
     url: "#Hobbies"
 
@@ -155,11 +155,11 @@ content:
 
         </div>
 
-  - title: Academic Activities & Outreach
+  - title: Academic Activities
     layout: list
     content:
       - description: |
-          <div id="academic-activities">
+          <div id="Academic Activities">
 
             <h3>EEG Recording & Analysis Workshop</h3>
             <p>
