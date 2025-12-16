@@ -177,7 +177,7 @@ content:
                 <div class="research-details">
                   Delivered a talk to Undergraduate EE & CS students on AI in neuroscience, neural decoding, and transformers.<br>
                   <video width="320" height="180" controls>
-                     <source src="/images/hobbies/flower1.mp4" type="video/mp4">
+                    <source src="/images/certificates/myTalk-neuroscience.mp4" type="video/mp4">
                   </video>
                   <div style="margin-top:10px;">
                     <img src="/images/certificates/myTalk1.jpg" width="150" style="margin-right:10px;">
