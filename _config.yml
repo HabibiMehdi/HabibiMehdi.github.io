@@ -38,6 +38,8 @@ navigation:
     url: "#publications"
   - title: Research Interests
     url: "#Research Interests"
+  - title: Academic Activities & Outreach
+    url: "# Academic Activities & Outreach"
   - title: Hobiies
     url: "#Hobbies"
 
@@ -153,6 +155,47 @@ content:
 
         </div>
 
+- title: Academic Activities & Outreach
+  layout: list
+  content:
+    - description: |
+        <div class="research-grid">
+
+          <div class="research-card">
+            <h3>EEG Recording & Analysis Workshop</h3>
+            <div class="research-details">
+              Hands-on workshop covering EEG recording, ERP analysis, ICA, and source localization.  
+              <a href="/images/certificates/workshop_eeg.pdf" target="_blank">Certificate</a>
+            </div>
+          </div>
+
+          <div class="research-card">
+            <h3>Neural Data Processing with Deep Learning (Python)</h3>
+            <div class="research-details">
+              Intensive training on processing neural data using Python and deep learning frameworks.  
+              <a href="/images/certificates/workshop_deepneuro.pdf" target="_blank">Certificate</a>
+            </div>
+          </div>
+
+          <div class="research-card highlight">
+            <h3>Invited Talk: AI & Neuroscience</h3>
+            <div class="research-details">
+              Delivered a talk to Undergraduate EE & CS students on AI in neuroscience, neural decoding, and transformers.  
+              <a href="/images/certificates/talk-preview.mp4" target="_blank">Watch 30s Clip</a>  
+              <a href="/images/certificates/talk-photos.zip" target="_blank">Photos</a>
+            </div>
+          </div>
+
+          <div class="research-card">
+            <h3>Reviewer</h3>
+            <div class="research-details">
+              Served as reviewer for journals:  
+              - Elsevier: Biomedical Signal Processing & Control (Q1)  
+              - Neurocomputing (Q1)
+            </div>
+          </div>
+
+        </div>
 
           
 
