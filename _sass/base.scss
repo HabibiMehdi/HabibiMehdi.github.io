@@ -189,89 +189,64 @@ body {
   background-color: transparent;
   padding: 0;
 }
+/* ===== Research Interests (Hover-Reveal Design) ===== */
 
-/*  ------ */
-/* ===== Research Focus – High-end Academic UI ===== */
-
-.research-focus {
+.research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 40px;
-  margin-top: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-top: 24px;
 }
 
-/* Card */
-.focus-card {
+.research-card {
   position: relative;
   background: #ffffff;
-  border-radius: 20px;
-  padding: 32px 28px;
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.06),
-    inset 0 0 0 1px rgba(0, 0, 0, 0.04);
-  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: all 0.35s ease;
   cursor: pointer;
-}
-
-/* Title */
-.focus-card h3 {
-  font-size: 1.6rem;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  color: #0f172a;
-  margin: 0;
-}
-
-/* Hidden content */
-.focus-content {
-  margin-top: 18px;
-  opacity: 0;
-  transform: translateY(12px);
-  max-height: 0;
   overflow: hidden;
-  transition: all 0.4s ease;
 }
 
-.focus-content ul {
-  padding-left: 18px;
+/* Main title (always visible) */
+.research-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111827;
   margin: 0;
+  transition: color 0.3s ease;
 }
 
-.focus-content li {
+/* Hidden details */
+.research-details {
+  margin-top: 16px;
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #334155;
+  color: #374151;
+
+  opacity: 0;
+  transform: translateY(10px);
+  max-height: 0;
+  overflow: hidden;
+
+  transition: all 0.35s ease;
 }
 
 /* Hover interaction */
-.focus-card:hover {
-  transform: translateY(-10px);
-  box-shadow:
-    0 30px 60px rgba(0, 0, 0, 0.12),
-    inset 0 0 0 1px rgba(37, 99, 235, 0.15);
+.research-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
 }
 
-.focus-card:hover h3 {
+.research-card:hover h3 {
   color: #2563eb;
 }
 
-.focus-card:hover .focus-content {
+.research-card:hover .research-details {
   opacity: 1;
   transform: translateY(0);
-  max-height: 260px;
-}
-
-/* Mobile: tap-to-expand */
-@media (max-width: 768px) {
-  .focus-card {
-    cursor: default;
-  }
-
-  .focus-card:active .focus-content {
-    opacity: 1;
-    transform: translateY(0);
-    max-height: 260px;
-  }
+  max-height: 200px;
 }
 
 
