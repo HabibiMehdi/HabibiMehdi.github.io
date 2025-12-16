@@ -124,12 +124,61 @@ content:
         title: Research Focus
         description: |
           <div class="research-tags">
-            <span class="research-tag">Computational Neuroscience</span>
-            <span class="research-tag">Brain–Computer Interfaces (BCI)</span>
-            <span class="research-tag">Neural Signal Processing (spike, LFP, ECoG/ EEG)</span>
-            <span class="research-tag">Interpretable Deep Learning for Neural Data</span>
-            <span class="research-tag">Reinforcement Learning for Sequential Decision-Making</span>
-            <span class="research-tag">Large Language Models for Neuroscience</span>
+
+            <div class="research-item">
+              <span class="research-tag">Computational Neuroscience</span>
+              <div class="research-popup">
+                Neural decoding (spike, LFP, ECoG)<br>
+                Control of movement<br>
+                Neural population dynamics
+              </div>
+            </div>
+
+            <div class="research-item">
+              <span class="research-tag">Brain–Computer Interfaces (BCI)</span>
+              <div class="research-popup">
+                Deep learning for EEG (e.g., P300 speller)<br>
+                Assistive & rehabilitation-oriented BCIs<br>
+                State-of-the-art models (e.g., ATCNet)
+              </div>
+            </div>
+
+            <div class="research-item">
+              <span class="research-tag">Neural Signal Processing</span>
+              <div class="research-popup">
+                Time–frequency representations<br>
+                Multi-channel neural features<br>
+                Physiologically interpretable pipelines
+              </div>
+            </div>
+
+            <div class="research-item">
+              <span class="research-tag">Interpretable Deep Learning</span>
+              <div class="research-popup">
+                CNN–RNN-Attention architectures<br>
+                Attention-based explanations<br>
+                Model interpretability for neural data
+              </div>
+            </div>
+
+            <div class="research-item">
+              <span class="research-tag">Reinforcement Learning</span>
+              <div class="research-popup">
+                Motor control policies<br>
+                Sequential decision-making<br>
+                Brain-inspired learning frameworks
+              </div>
+            </div>
+
+            <div class="research-item">
+              <span class="research-tag">LLMs for Neuroscience</span>
+              <div class="research-popup">
+                Spike-based tokenization<br>
+                Attention & transformer models<br>
+                Neural foundation models (e.g., EEGPT, POYO)
+              </div>
+            </div>
+
           </div>
 
           
