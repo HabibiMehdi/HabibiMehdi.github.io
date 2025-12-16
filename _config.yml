@@ -197,39 +197,35 @@ content:
             </div>
           </section>
 
+
   - title: Hobbies
     layout: list
     content:
       - description: |
-          <div class="research-grid">
-
-            <!-- Floral Design Card -->
-            <div class="research-card">
-              <h3>Floral Design</h3>
-              <div class="research-details">
-                Creative floral arrangement and artistic design as a relaxing and expressive hobby.
-
-                <div style="margin-top:12px;">
-                  <video controls style="width:100%; max-width:100%; border-radius:10px;">
+          <section id="hobbies">
+            <div class="research-grid">
+              <div class="research-card">
+                <h3>Floral Design</h3>
+                <div class="research-details">
+                  Creative floral arrangement and artistic design as a relaxing and expressive hobby.<br>
+                  <video controls style="width:100%; max-width:100%; border-radius:10px; margin-top:12px;">
                     <source src="/images/hobbies/flower1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
                 </div>
               </div>
-            </div>
 
-            <!-- Entertainment Card -->
-            <div class="research-card">
-              <h3>Entertainment</h3>
-              <div class="research-details">
-                • Reading<br>
-                • Movies<br>
-                • Gaming<br>
-                • Watching Formula 1
+              <div class="research-card">
+                <h3>Entertainment</h3>
+                <div class="research-details">
+                  • Reading<br>
+                  • Movies<br>
+                  • Gaming<br>
+                  • Watching Formula 1
+                </div>
               </div>
             </div>
-
-          </div>
+          </section>
 
 
 # Footer
