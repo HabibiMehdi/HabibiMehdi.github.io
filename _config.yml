@@ -118,42 +118,40 @@ content:
           
           <span style="color:#000099">under review, Iscience(cell press)</span>
 
-  - title: Research Interests
-    layout: list
-    content:
-      - layout: left
-        title: 
-        description: |
-          <div class="research-grid">
+- title: Research Interests
+  layout: list
+  content:
+    - description: |
+        <div class="research-grid">
 
-            <div class="research-card">
-              <h3>Computational Neuroscience</h3>
-              <div class="research-details">
-                Neural Decoding (spike, LFP, ECoG)<br>
-                Control of Movement<br>
-                Neural Population Dynamics
-              </div>
+          <div class="research-card">
+            <h3>Computational Neuroscience</h3>
+            <div class="research-details">
+              Neural Decoding (spike, LFP, ECoG)<br>
+              Control of Movement<br>
+              Neural Population Dynamics
             </div>
-
-            <div class="research-card">
-              <h3>Brain–Computer Interfaces (BCI)</h3>
-              <div class="research-details">
-                Deep Learning for EEG (P300 speller)<br>
-                Rehabilitation-oriented BCIs<br>
-                Advanced models (e.g., ATCNet)
-              </div>
-            </div>
-
-            <div class="research-card">
-              <h3>LLMs for Neuroscience</h3>
-              <div class="research-details">
-                Spike-based tokenization<br>
-                Transformer & attention mechanisms<br>
-                Neural foundation models (EEGPT, POYO)
-              </div>
-            </div>
-
           </div>
+
+          <div class="research-card">
+            <h3>Brain–Computer Interfaces (BCI)</h3>
+            <div class="research-details">
+              Deep Learning for EEG (P300 speller)<br>
+              Rehabilitation-oriented BCIs<br>
+              Advanced models (e.g., ATCNet)
+            </div>
+          </div>
+
+          <div class="research-card">
+            <h3>LLMs for Neuroscience</h3>
+            <div class="research-details">
+              Spike-based tokenization<br>
+              Transformer & attention mechanisms<br>
+              Neural foundation models (EEGPT, POYO)
+            </div>
+          </div>
+
+        </div>
 
 
           
