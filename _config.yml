@@ -177,7 +177,7 @@ content:
                 <div class="research-details">
                   Delivered a talk to Undergraduate EE & CS students on AI in neuroscience, neural decoding, and transformers.<br>
                   <video width="320" height="180" controls>
-                    <source src="/images/certificates/myTalk-neuroscience.mp4" type="video/mp4">
+                     <source src="/images/hobbies/flower1.mp4" type="video/mp4">
                   </video>
                   <div style="margin-top:10px;">
                     <img src="/images/certificates/myTalk1.jpg" width="150" style="margin-right:10px;">
@@ -204,11 +204,13 @@ content:
       - description: |
           <section id="hobbies">
             <div class="research-grid">
+              
               <div class="research-card">
                 <h3>Floral Design</h3>
                 <div class="research-details">
-                  Creative floral arrangement and artistic design as a relaxing and expressive hobby.<br>
-                  <video controls style="width:100%; max-width:100%; border-radius:10px; margin-top:12px;">
+                  Creative floral arrangement and artistic design as a relaxing and expressive hobby.
+                  
+                  <video width="320" height="180" controls>
                     <source src="/images/hobbies/flower1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
@@ -224,7 +226,10 @@ content:
                   • Watching Formula 1
                 </div>
               </div>
+
             </div>
+          </section>
+          
           </section>
 
 
