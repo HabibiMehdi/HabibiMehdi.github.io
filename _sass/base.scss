@@ -191,6 +191,36 @@ body {
 }
 
 
+/* =========================
+   Research Interests (Interactive)
+   ========================= */
+
+.research-tags {
+  margin-top: 10px;
+}
+
+.research-tag {
+  display: inline-block;
+  margin: 6px 8px;
+  padding: 8px 16px;
+  font-size: 0.95em;
+  font-weight: 500;
+  border-radius: 22px;
+  background: #f3f3f3;
+  color: #222;
+
+  transition: all 0.25s ease;
+}
+
+.research-tag:hover {
+  transform: scale(1.12);
+  background: linear-gradient(135deg, #1a1a1a, #3d3d3d);
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+
+
 /* Dark Mode */
 body.dark-mode {
   background-color: #121212;
