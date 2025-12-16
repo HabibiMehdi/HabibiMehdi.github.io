@@ -27,7 +27,6 @@ additional_links:
     icon: fab fa-x-twitter
     url: https://x.com/Mehdi8habibi
 
-
 # Navigation
 navigation:
   - title: Education
@@ -37,21 +36,17 @@ navigation:
   - title: Publications
     url: "#publications"
   - title: Research Interests
-    url: "#Research Interests"
+    url: "#research-interests"
   - title: Academic Activities
-    url: "#Academic Activities"
-  - title: Hobiies
-    url: "#Hobbies"
+    url: "#academic-activities"
+  - title: Hobbies
+    url: "#hobbies"
 
 # About Section
 about_profile_image: /images/profile.jpg
 about_content: |
   Hello! I am Mehdi Habibi, a **machine learning** and **signal processing engineer** with a deep commitment to advancing interpretable, scalable algorithms for real-world applications.
   My background bridges **electrical engineering** and **computational neuroscience**, with experience developing and applying advanced optimization **(Python, Matlab)**, deep learning **(Pytorch)**, decoding neural signal methods.
-  
-  
-  
-  
   
   My research and engineering work have focused on developing innovative frameworks for neural signal**(spike/LFPs/ EEGs)** analysis related to the kinematic and kinetic aspects of movement control, complemented by a solid knowledge of **rodent models**, **experimental task design**, and surgical procedures, particularly in the context of electrophysiological recordings. In addition, I have practical expertise in **FPGA-based systems**, which allows me to integrate advanced computational methods with real-time applications in experimental neuroscience.
 
@@ -109,6 +104,7 @@ content:
           - **High-Performance Model Training**: GPU & CUDA optimization (e.g., NVIDIA A100)
           - **Programming Expertise**: Python, MATLAB, and PyTorch for computational neuroscience
           - **Data Visualization & Scientific Figure Preparation**: Professional figure design for research publications
+
   - title: Publications
     layout: list
     content:
@@ -120,53 +116,49 @@ content:
           
           <span style="color:#000099">under review, Iscience(cell press)</span>
 
-- title: Research Interests
-  layout: list
-  content:
-    - description: |
-        <div class="research-grid">
+  - title: Research Interests
+    layout: list
+    content:
+      - description: |
+          <div class="research-grid">
+            <div class="research-card">
+              <h3>Computational Neuroscience</h3>
+              <div class="research-details">
+                Neural Decoding (spike, LFP, ECoG)<br>
+                Control of Movement<br>
+                Neural Population Dynamics
+              </div>
+            </div>
 
-          <div class="research-card">
-            <h3>Computational Neuroscience</h3>
-            <div class="research-details">
-              Neural Decoding (spike, LFP, ECoG)<br>
-              Control of Movement<br>
-              Neural Population Dynamics
+            <div class="research-card">
+              <h3>Brain–Computer Interfaces (BCI)</h3>
+              <div class="research-details">
+                Deep Learning for EEG (P300 speller)<br>
+                Rehabilitation-oriented BCIs<br>
+                Advanced models (e.g., ATCNet)
+              </div>
+            </div>
+
+            <div class="research-card">
+              <h3>LLMs for Neuroscience</h3>
+              <div class="research-details">
+                Spike-based tokenization<br>
+                Transformer & attention mechanisms<br>
+                Neural foundation models (EEGPT, POYO)
+              </div>
             </div>
           </div>
-
-          <div class="research-card">
-            <h3>Brain–Computer Interfaces (BCI)</h3>
-            <div class="research-details">
-              Deep Learning for EEG (P300 speller)<br>
-              Rehabilitation-oriented BCIs<br>
-              Advanced models (e.g., ATCNet)
-            </div>
-          </div>
-
-          <div class="research-card">
-            <h3>LLMs for Neuroscience</h3>
-            <div class="research-details">
-              Spike-based tokenization<br>
-              Transformer & attention mechanisms<br>
-              Neural foundation models (EEGPT, POYO)
-            </div>
-          </div>
-
-        </div>
 
   - title: Academic Activities
     layout: list
     content:
       - description: |
-          <div id="Academic Activities">
-
+          <div id="academic-activities">
             <h3>EEG Recording & Analysis Workshop</h3>
             <p>
               Hands-on workshop covering EEG recording, ERP analysis, ICA, and source localization.
             </p>
             <a href="/images/certificates/nbml.png" target="_blank">Certificate</a>
-
           </div>
 
   - title: Hobbies
@@ -176,7 +168,6 @@ content:
         title: My Hobbies
         description: |
           Movies, Floral design, Gaming, Reading, Watching Formula 1
-
 
 # Footer
 footer_show_references: true
