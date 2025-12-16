@@ -154,58 +154,20 @@ content:
           </div>
 
         </div>
-<section id="academic-activities">
-  <!-- Academic Activities & Outreach -->
-  <div class="research-grid">
 
-    <div class="research-card">
-      <h3>EEG Recording & Analysis Workshop</h3>
-      <div class="research-details">
-        Hands-on workshop covering EEG recording, ERP analysis, ICA, and source localization.  
-        <a href="/images/certificates/nbml.png" target="_blank">Certificate</a>
-      </div>
-    </div>
+  - title: Academic Activities & Outreach
+    layout: list
+    content:
+      - description: |
+          <div id="academic-activities">
 
-    <div class="research-card">
-      <h3>Neural Data Processing with Deep Learning (Python)</h3>
-      <div class="research-details">
-        Intensive training on processing neural data using Python and deep learning frameworks.  
-        <a href="/images/certificates/workshop_deepneuro.pdf" target="_blank">Certificate</a>
-      </div>
-    </div>
+            <h3>EEG Recording & Analysis Workshop</h3>
+            <p>
+              Hands-on workshop covering EEG recording, ERP analysis, ICA, and source localization.
+            </p>
+            <a href="/images/certificates/nbml.png" target="_blank">Certificate</a>
 
-    <div class="research-card highlight">
-      <h3>
-        Invited Talk: AI & Neuroscience
-        <span style="color:#006400; font-weight:600;">(Presented by Me)</span>
-      </h3>
-
-      <div class="research-details">
-        Delivered a talk to Undergraduate EE & CS students on AI in neuroscience, neural decoding, and transformers.
-
-        <video width="320" height="180" controls>
-          <source src="/images/certificates/myTalk-neuroscience.mp4" type="video/mp4">
-        </video>
-
-        <div style="margin-top:10px;">
-          <img src="/images/certificates/myTalk1.jpg" width="150" style="margin-right:10px;">
-          <img src="/images/certificates/myTalk2.jpg" width="150">
-        </div>
-      </div>
-    </div>
-
-    <div class="research-card">
-      <h3>Reviewer</h3>
-      <div class="research-details">
-        Served as reviewer for journals:
-        <br>• Elsevier: Biomedical Signal Processing & Control (Q1)
-        <br>• Neurocomputing (Q1)
-      </div>
-    </div>
-
-  </div>
-</section>
-
+          </div>
 
   - title: Hobbies
     layout: list
