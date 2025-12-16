@@ -161,14 +161,16 @@ content:
     - description: |
         <div class="research-grid">
 
+          <!-- EEG Workshop -->
           <div class="research-card">
             <h3>EEG Recording & Analysis Workshop</h3>
             <div class="research-details">
               Hands-on workshop covering EEG recording, ERP analysis, ICA, and source localization.  
-              <a href="/images/certificates/workshop_eeg.pdf" target="_blank">Certificate</a>
+              <a href="/images/certificates/nbml.png" target="_blank">Certificate</a>
             </div>
           </div>
 
+          <!-- Deep Learning Workshop -->
           <div class="research-card">
             <h3>Neural Data Processing with Deep Learning (Python)</h3>
             <div class="research-details">
@@ -177,15 +179,28 @@ content:
             </div>
           </div>
 
-          <div class="research-card highlight">
-            <h3>Invited Talk: AI & Neuroscience</h3>
-            <div class="research-details">
-              Delivered a talk to Undergraduate EE & CS students on AI in neuroscience, neural decoding, and transformers.  
-              <a href="/images/certificates/talk-preview.mp4" target="_blank">Watch 30s Clip</a>  
-              <a href="/images/certificates/talk-photos.zip" target="_blank">Photos</a>
+          <!-- Invited Talk with Video + Photos -->
+        <div class="research-card highlight">
+          <h3>Invited Talk: AI & Neuroscience <span style="color:#006400; font-weight:600;">(Presented by Me)</span></h3>
+          <div class="research-details">
+            Delivered a talk to Undergraduate EE & CS students on AI in neuroscience, neural decoding, and transformers.  
+
+
+              <!-- Video -->
+              <video width="320" height="180" controls>
+                <source src="/images/certificates/myTalk-neuroscience.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+
+              <!-- Photos -->
+              <div class="talk-photos" style="margin-top:10px;">
+                <img src="/images/certificates/myTalk1.jpg" alt="Talk Photo 1" width="150" style="margin-right:10px;">
+                <img src="/images/certificates/myTalk2.jpg" alt="Talk Photo 2" width="150">
+              </div>
             </div>
           </div>
 
+          <!-- Reviewer -->
           <div class="research-card">
             <h3>Reviewer</h3>
             <div class="research-details">
@@ -197,7 +212,7 @@ content:
 
         </div>
 
-          
+
 
   - title: Hobbies
     layout: list
