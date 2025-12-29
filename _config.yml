@@ -89,7 +89,7 @@ content:
       - layout: left
         title: Research Assistant
         sub_title: Neuroscience and Neuroengineering Laboratory (NNRL) Lab
-        caption: March 2022 - present
+        caption: March 2022 – Present
         quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
         description: |
           - **Experimental Design & Behavioral Task Development**: Motor and cognitive paradigms using PsychoPy
@@ -102,6 +102,15 @@ content:
           - **High-Performance Model Training**: GPU & CUDA optimization (e.g., NVIDIA A100)
           - **Programming Expertise**: Python, MATLAB, and PyTorch for computational neuroscience
           - **Data Visualization & Scientific Figure Preparation**: Professional figure design for research publications
+
+          <br>
+          <strong>My Journey as a Master’s Student in Neuroscience</strong>
+
+          <video class="card-video" controls>
+            <source src="/images/hobbies/master-journey.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
 
   - title: Publications
     layout: list
