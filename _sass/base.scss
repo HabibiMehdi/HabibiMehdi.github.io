@@ -249,8 +249,30 @@ body {
   max-height: 200px;
 }
 
+.video-card {
+  cursor: default;
+}
 
+.video-card:hover {
+  transform: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
 
+.card-video {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 16px;
+  border-radius: 12px;
+
+  display: block;
+  background: #000;
+}
+
+.video-card .research-details {
+  opacity: 1;
+  max-height: none;
+  transform: none;
+}
 
 
 
