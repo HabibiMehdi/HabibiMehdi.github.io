@@ -105,20 +105,21 @@ content:
   
       - layout: left
         description: |
-          <div class="research-card video-card">
-            <h3>My Journey as a Master’s Student in Neuroscience</h3>
-          
-            <video class="card-video"
-                   controls
-                   preload="metadata"
-                   playsinline>
-              <source src="/images/master-journey.mp4" type="video/mp4">
-            </video>
-          
-            <div class="research-details always-visible">
-              A short visual summary of my academic and personal journey during my MSc.
+          <section id="experience-video">
+            <div class="research-grid">
+              <div class="research-card">
+                <h3>My Journey as a Master’s Student in Neuroscience</h3>
+                <div class="research-details">
+                  A short visual summary of my academic and personal journey during my MSc.
+                  
+                  <video width="320" height="180" controls>
+                    <source src="images/master-journey.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
             </div>
-          </div>
+          </section>
 
 
 
