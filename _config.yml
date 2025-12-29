@@ -105,14 +105,18 @@ content:
 
           <br><br>
 
-          <div class="research-card">
+          <div class="research-card video-card">
             <h3>My Journey as a Master’s Student in Neuroscience</h3>
-            <div class="research-details">
-              A short visual summary of my academic and personal journey during my Master's studies.
-
-              <video class="card-video" controls>
-                <source src="/images/hobbies/master-journey.mp4" type="video/mp4">
-              </video>
+          
+            <video class="card-video"
+                   controls
+                   preload="metadata"
+                   playsinline>
+              <source src="/images/master-journey.mp4" type="video/mp4">
+            </video>
+          
+            <div class="research-details always-visible">
+              A short visual summary of my academic and personal journey during my MSc.
             </div>
           </div>
 
