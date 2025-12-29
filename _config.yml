@@ -69,56 +69,56 @@ content:
         description: |
           **Supervisor**: [Assistant Professor. Hamidreza Karami](https://scholar.google.com/citations?user=Qn35J5wAAAAJ&hl=en)  
           **Related Coursework**: Probability & Statistics, Linear Algebra, FPGA, Signals & Systems, CMOS, Numerical Methods, Design of Algorithms, Computer Simulation, Database Design, Data Structures & Algorithms
-
-- title: Experiences
-  layout: list
-  content:
-    - layout: left
-      title: Machine Learning Researcher and Engineer
-      sub_title: Machine Learning and Neuroscience Developer (Germany, Remote)
-      caption: 2025
-      quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit GmbH</a> @ Germany'
-      description: |
-        - **Physiological Signal Processing**: EDA, EMG, ECG, ACC, Temperature
-        - **Deep Learning for Real-Time Applications**: Low-latency model development and deployment
-        - **Wearable Device Implementation**: Empatica E4 and similar wearable technologies
-        - **Applications**: Stress Detection, Activity Recognition in real-world scenarios
-        - **Team Collaboration**: Collaborated with international teams on neuroscience research projects
-        - **Signal Analysis & Model Optimization**: Developing interpretable, reliable, and low-latency systems
-
-    - layout: left
-      title: Research Assistant
-      sub_title: Neuroscience and Neuroengineering Laboratory (NNRL) Lab
-      caption: March 2022 – Present
-      quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
-      description: |
-        - **Experimental Design & Behavioral Task Development**: Motor and cognitive paradigms using PsychoPy
-        - **Strong Theoretical Understanding of Electrophysiological Recording Techniques**: LFPs, ECoG, EEG
-        - **Neural Signal Processing & Preprocessing**: Spectral and time-frequency feature extraction for neural time-series data
-        - **Deep Neural Architectures for Neural Decoding**: Advanced model development for brain signal interpretation
-        - **Motor Intention & Force Decoding**: From LFP dynamics analysis
-        - **Interpretable Neural Decoding Models**: Identifying frequency bands and cortical regions linked to motor output
-        - **Interpretable Deep Learning Pipelines**: Implementing Grad-CAM and related explainable AI methods
-        - **High-Performance Model Training**: GPU & CUDA optimization (e.g., NVIDIA A100)
-        - **Programming Expertise**: Python, MATLAB, and PyTorch for computational neuroscience
-        - **Data Visualization & Scientific Figure Preparation**: Professional figure design for research publications
-
-    - layout: left
-      description: |
-        <div class="research-card video-card">
-          <h3>My Journey as a Master’s Student in Neuroscience</h3>
-        
-          <video class="card-video"
-                 controls
-                 preload="metadata"
-                 playsinline>
-            <source src="/images/master-journey.mp4" type="video/mp4">
-          </video>
-        
-          <div class="research-details always-visible">
-            A short visual summary of my academic and personal journey during my MSc.
+  
+  - title: Experiences
+    layout: list
+    content:
+      - layout: left
+        title: Machine Learning Researcher and Engineer
+        sub_title: Machine Learning and Neuroscience Developer (Germany, Remote)
+        caption: 2025
+        quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit GmbH</a> @ Germany'
+        description: |
+          - **Physiological Signal Processing**: EDA, EMG, ECG, ACC, Temperature
+          - **Deep Learning for Real-Time Applications**: Low-latency model development and deployment
+          - **Wearable Device Implementation**: Empatica E4 and similar wearable technologies
+          - **Applications**: Stress Detection, Activity Recognition in real-world scenarios
+          - **Team Collaboration**: Collaborated with international teams on neuroscience research projects
+          - **Signal Analysis & Model Optimization**: Developing interpretable, reliable, and low-latency systems
+  
+      - layout: left
+        title: Research Assistant
+        sub_title: Neuroscience and Neuroengineering Laboratory (NNRL) Lab
+        caption: March 2022 – Present
+        quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
+        description: |
+          - **Experimental Design & Behavioral Task Development**: Motor and cognitive paradigms using PsychoPy
+          - **Strong Theoretical Understanding of Electrophysiological Recording Techniques**: LFPs, ECoG, EEG
+          - **Neural Signal Processing & Preprocessing**: Spectral and time-frequency feature extraction for neural time-series data
+          - **Deep Neural Architectures for Neural Decoding**: Advanced model development for brain signal interpretation
+          - **Motor Intention & Force Decoding**: From LFP dynamics analysis
+          - **Interpretable Neural Decoding Models**: Identifying frequency bands and cortical regions linked to motor output
+          - **Interpretable Deep Learning Pipelines**: Implementing Grad-CAM and related explainable AI methods
+          - **High-Performance Model Training**: GPU & CUDA optimization (e.g., NVIDIA A100)
+          - **Programming Expertise**: Python, MATLAB, and PyTorch for computational neuroscience
+          - **Data Visualization & Scientific Figure Preparation**: Professional figure design for research publications
+  
+      - layout: left
+        description: |
+          <div class="research-card video-card">
+            <h3>My Journey as a Master’s Student in Neuroscience</h3>
+          
+            <video class="card-video"
+                   controls
+                   preload="metadata"
+                   playsinline>
+              <source src="/images/master-journey.mp4" type="video/mp4">
+            </video>
+          
+            <div class="research-details always-visible">
+              A short visual summary of my academic and personal journey during my MSc.
+            </div>
           </div>
-        </div>
 
 
 
