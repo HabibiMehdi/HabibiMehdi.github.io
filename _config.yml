@@ -103,13 +103,19 @@ content:
           - **Programming Expertise**: Python, MATLAB, and PyTorch for computational neuroscience
           - **Data Visualization & Scientific Figure Preparation**: Professional figure design for research publications
 
-          <br>
-          <strong>My Journey as a Master’s Student in Neuroscience</strong>
+          <br><br>
 
-          <video class="card-video" controls>
-            <source src="/images/hobbies/master-journey.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <div class="research-card">
+            <h3>My Journey as a Master’s Student in Neuroscience</h3>
+            <div class="research-details">
+              A short visual summary of my academic and personal journey during my Master's studies.
+
+              <video class="card-video" controls>
+                <source src="/images/hobbies/master-journey.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+
 
 
   - title: Publications
