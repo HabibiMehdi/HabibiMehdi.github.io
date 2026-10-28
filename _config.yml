@@ -82,9 +82,6 @@ content:
         caption: 2025
         quote: '<a href="https://www.virgobit.com/" target="_blank">Virgobit GmbH</a> @ Germany'
         description: |
-          - **Physiological Signal Processing**: EDA, EMG, ECG, ACC, Temperature
-          - **Deep Learning for Real-Time Applications**: Low-latency model development and deployment
-          - **Wearable Device Implementation**: Empatica E4 and similar wearable technologies
           - **Applications**: Stress Detection, Activity Recognition in real-world scenarios
           - **Team Collaboration**: Collaborated with international teams on neuroscience research projects
           - **Signal Analysis & Model Optimization**: Developing interpretable, reliable, and low-latency systems
@@ -96,15 +93,8 @@ content:
         quote: '<a href="https://nnrl.ir/index.php/people/faculty-members/" target="_blank">Neuroscience and Neuroengineering Laboratory (NNRL) Lab</a> @ Iran University of Science and Technology, Iran'
         description: |
           - **Experimental Design & Behavioral Task Development**: Motor and cognitive paradigms using PsychoPy
-          - **Strong Theoretical Understanding of Electrophysiological Recording Techniques**: LFPs, ECoG, EEG
-          - **Neural Signal Processing & Preprocessing**: Spectral and time-frequency feature extraction for neural time-series data
-          - **Deep Neural Architectures for Neural Decoding**: Advanced model development for brain signal interpretation
-          - **Motor Intention & Force Decoding**: From LFP dynamics analysis
-          - **Interpretable Neural Decoding Models**: Identifying frequency bands and cortical regions linked to motor output
-          - **Interpretable Deep Learning Pipelines**: Implementing Grad-CAM and related explainable AI methods
-          - **High-Performance Model Training**: GPU & CUDA optimization (e.g., NVIDIA A100)
-          - **Programming Expertise**: Python, MATLAB, and PyTorch for computational neuroscience
-          - **Data Visualization & Scientific Figure Preparation**: Professional figure design for research publications
+
+
 
       - layout: left
         description: |
@@ -143,7 +133,7 @@ content:
           </span>
 
       - layout: top
-        title: "Neural Digital Twins: Toward Next-Generation Brain-Computer Interfaces"
+        title: "Neural Digital Twins: Toward Next-Generation Neural Decoding Systems"
         image: /images/publication2.jpg
         description: |
           <span style="color:#006400">
